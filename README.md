@@ -33,7 +33,7 @@ following tools are pre-configured:
 ## Install
 
 ```
-yarn add @milesj/build-tools --dev
+yarn add @agrublev/build-tools --dev
 ```
 
 To compile Babel with its runtime, add the dependency per package.
@@ -47,7 +47,7 @@ Finally, add the following Beemo configuration to the root `package.json`.
 ```json
 {
   "beemo": {
-    "module": "@milesj/build-tools",
+    "module": "@agrublev/build-tools",
     "drivers": ["babel", "eslint", "jest", "prettier", "typescript"]
   }
 }

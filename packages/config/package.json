@@ -1,5 +1,5 @@
 {
-  "name": "@milesj/build-tool-config",
+  "name": "@agrublev/build-tool-config",
   "version": "0.172.2",
   "description": "Build tool configuration files for easy re-use.",
   "keywords": [

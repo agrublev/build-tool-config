@@ -1,1 +1,1 @@
-module.exports = require('@milesj/build-tool-config');
+module.exports = require('@agrublev/build-tool-config');

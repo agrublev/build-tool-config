@@ -1,13 +1,13 @@
 {
   "private": true,
   "name": "milesj-root",
+  "version": "0.0.1",
   "scripts": {
     "build": "beemo run-script build",
     "eslint": "beemo eslint ./packages/config",
     "jest": "beemo jest",
     "prettier": "beemo prettier \"./packages/config/{configs,dotfiles,scripts}/*.{js,json,md,yml,yaml}\"",
     "test": "yarn run eslint && yarn run jest",
-    "prerelease": "yarn test",
     "release": "lerna publish"
   },
   "dependencies": {
@@ -17,7 +17,7 @@
     "packages/*"
   ],
   "beemo": {
-    "module": "@milesj/build-tool-config",
+    "module": "@agrublev/build-tool-config",
     "drivers": [
       "babel",
       "eslint",

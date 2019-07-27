@@ -28,7 +28,7 @@ module.exports = class InitScript extends Script {
 
     // Beemo
     Object.assign(packageConfig.beemo, {
-      module: args.local ? '@local' : '@milesj/build-tools',
+      module: args.local ? '@local' : '@agrublev/build-tools',
       drivers: ['babel', 'eslint', 'jest', 'prettier', 'typescript'],
       settings: {},
     });
