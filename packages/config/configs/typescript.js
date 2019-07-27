@@ -12,7 +12,7 @@ const compilerOptions = {
   experimentalDecorators: context.args.decorators || false,
   forceConsistentCasingInFileNames: true,
   lib: ['dom', 'esnext'],
-  module: 'commonjs',
+  module: 'umd',
   noEmitOnError: true,
   noImplicitReturns: true,
   pretty: true,
