@@ -1,6 +1,6 @@
 {
   "name": "@agrublev/build-tools",
-  "version": "0.50.2",
+  "version": "0.50.3",
   "description": "Shared build tools for easier development.",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "postinstall": "bash ./link.sh"
   },
   "dependencies": {
-    "@agrublev/build-tool-config": "^0.172.2",
-    "@agrublev/build-tool-runtime": "^0.44.0"
+    "@agrublev/build-tool-config": "^0.172.3",
+    "@agrublev/build-tool-runtime": "^0.44.1"
   }
 }
